@@ -1,0 +1,19 @@
+{
+  "splunk": {
+    "host": "localhost",
+    "port": 8089,
+    "username": "admin",
+    "password": "changeme",
+    "scheme": "https"
+  },
+  "server": {
+    "name": "Splunk MCP Server",
+    "version": "1.0.0"
+  },
+  "defaults": {
+    "max_results": 100,
+    "output_mode": "json",
+    "earliest_time": "-24h",
+    "latest_time": "now"
+  }
+}
